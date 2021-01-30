@@ -56,7 +56,7 @@
                 <label for="message">Message:</label> <textarea cols="30" rows="5" id="message" name="message"> </textarea>
             </div>
 
-            <div>
+            <!-- <div>
                 <label for="subject">Subject: </label>
                 <select id="subject">
                     <optgroup label="Product Issues">
@@ -72,6 +72,20 @@
                         <option value="other">Other</option>
                     </optgroup>
                 </select>
+            </div> -->
+
+            <!-- Datalist dropdown -->
+            <div>
+                <label for="subject">Subject: </label>
+                <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+                <datalist id="subjects">
+                    <option value="returns"></option>
+                    <option value="faulty item"></option>
+                    <option value="delivery"></option>
+                    <option value="order tracking"></option>
+                    <option value="advice"></option>
+                    <option value="other"></option>
+                </datalist>
             </div>
 
             <div>
@@ -93,6 +107,13 @@
                 <label for="emailResponse">Email</label>
                 <input type="radio" id="emailResponse" value="response" name="response">
             </div>
+
+            <div>
+                <input type="submit">
+                <input type="reset">
+                <!-- <button type="submit">Submit</button> -->
+            </div>
+
         </form>
 
     </main>
@@ -117,5 +138,8 @@
     value is what goes to the form backend
     Select:
     For dropdown. Can provide "multiple" attribute for multiple selection.
+    Datalist:
+    Use this site to check compatibility: https://caniuse.com/?search=datalist before using it
+
 
 -->
