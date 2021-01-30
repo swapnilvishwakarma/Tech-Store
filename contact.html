@@ -55,6 +55,26 @@
             <div>
                 <label for="message">Message:</label> <textarea cols="30" rows="5" id="message" name="message"> </textarea>
             </div>
+
+            <div>
+                <p>Subscribe to our future offers:</p>
+                <label for="newsletterSubscribe">Newsletter</label>
+                <input type="checkbox" id="newsletterSubscribe" value="newsletter" name="subscribe">
+
+                <label for="emailSubscribe">Email</label>
+                <input type="checkbox" id="emailSubscribe" value="email" name="subscribe">
+
+                <label for="postSubscribe">Post</label>
+                <input type="checkbox" id="postSubscribe" value="post" name="subscribe">
+            </div>
+            <div>
+                <p>How would you like us to respond?</p>
+                <label for="phoneResponse">Phone</label>
+                <input type="radio" id="phoneResponse" value="response" name="response">
+
+                <label for="emailResponse">Email</label>
+                <input type="radio" id="emailResponse" value="response" name="response">
+            </div>
         </form>
 
     </main>
@@ -76,6 +96,7 @@
 <!--
     Forms:
     In order to link the name and the input, we use <label>
+    value is what goes to the form backend
 
 
 -->
