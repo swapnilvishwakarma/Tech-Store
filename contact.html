@@ -57,6 +57,24 @@
             </div>
 
             <div>
+                <label for="subject">Subject: </label>
+                <select id="subject">
+                    <optgroup label="Product Issues">
+                        <option value="returns">Returns</option>
+                        <option value="faulty_item">Faulty Item</option>
+                    </optgroup>
+                    <optgroup label="Delivery">
+                        <option value="delivery">Delivery Info</option>
+                        <option value="order_tracking">Tracking my Order</option>
+                    </optgroup>
+                    <optgroup label="Others">
+                        <option value="advice">Advice</option>
+                        <option value="other">Other</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
                 <p>Subscribe to our future offers:</p>
                 <label for="newsletterSubscribe">Newsletter</label>
                 <input type="checkbox" id="newsletterSubscribe" value="newsletter" name="subscribe">
@@ -97,6 +115,7 @@
     Forms:
     In order to link the name and the input, we use <label>
     value is what goes to the form backend
-
+    Select:
+    For dropdown. Can provide "multiple" attribute for multiple selection.
 
 -->
