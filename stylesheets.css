@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    font-family: 'Barlow', sans-serif;
     background: white;
     max-width: 1000px;
     margin: 0 auto;
@@ -12,3 +13,37 @@ header, footer {
     background: #333a40;
     color: white;
 }
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* class */
+.product {
+    border: 1px solid grey;
+    width: 200px;
+    margin: 5px; 
+    padding: 5px;
+}
+
+img {
+    max-width: 200;
+}
+
+
+/* unique id 
+#name {
+    background: red;
+}
+*/
+
+/* 
+Margin is for outer boundary of div
+Padding is for inner boundary of divs
+
+Sometimes unordered list make use of browser's default value hence we reset it.
+Normalize.css can also be used to make it consistant
+
+
+*/
