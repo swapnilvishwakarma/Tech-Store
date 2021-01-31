@@ -7,6 +7,7 @@ body {
     background: white;
     max-width: 1000px;
     margin: 0 auto;
+    color: rgb(49, 46, 46);
 }
 
 header, footer {
@@ -42,7 +43,7 @@ li {
 }
 
 img {
-    max-width: 200;
+    max-width: 198;
 }
 
 .button {
@@ -61,6 +62,29 @@ aside {
     display: inline-block;
     vertical-align: top;
     padding: 10px;
+}
+
+/* To remove underlines from the links 
+   and inherit the colours
+*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Psuedo classes */
+a:hover {
+    color: #0e69e9;
+}
+
+/* p:first-of-type {
+    color: lightcoral;
+} */
+
+.button:last-of-type {
+    background: #0e69e9;
+    color: white;
 }
 
 /* unique id 
