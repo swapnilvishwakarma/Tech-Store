@@ -42,6 +42,15 @@ li {
     display: inline-block;
 }
 
+.product-detail {
+    width: 660px;
+}
+
+.product-detail img {
+    max-width: 50%;
+    float: left;
+}
+
 img {
     max-width: 198;
 }
