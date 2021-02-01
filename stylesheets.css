@@ -5,15 +5,21 @@ html {
 body {
     font-family: 'Barlow', sans-serif;
     background: white;
-    max-width: 80vw;
+    /* max-width: 80vw; */
+    max-width: 100%;
     margin: 0 auto;
     color: rgb(49, 46, 46);
+    text-align: center;
 }
 
 header, footer {
     background: #333a40;
     color: white;
     padding: 20px 10px;
+}
+
+input[type="search"] {
+    width: 100%;
 }
 
 header li {
@@ -25,7 +31,8 @@ header h1, nav {
 }
 
 header h1 {
-    width: 64%;
+    /* width: 64%; */
+    width: 100%;
 }
 
 ul {
@@ -35,16 +42,18 @@ ul {
 
 li {
     list-style: none;
+    line-height: 30px;
 }
 
 /* class */
 .product {
     box-sizing: border-box;
     border: 1px solid grey;
-    width: 30%;
+    /* width: 30%; */
+    width: 100%;
     margin: 5px; 
     padding: 5px;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
 }
 
@@ -58,7 +67,7 @@ li {
 }
 
 img {
-    max-width: 198;
+    max-width: 100%;
 }
 
 .button {
@@ -66,20 +75,21 @@ img {
     display: inline-block;
 }
 
-main {
+/* main { */
     /* target/context = result */
     /* 680/1000 = 0.68 */
-    width: 68%;
-    display: inline-block;
-    padding: 10px;
-}
+    /* width: 68%; */
+    /* display: inline-block; */
+    /* padding: 10px; */
+    
+/* } */
 
-aside {
+/* aside {
     width: 27%;
     display: inline-block;
     vertical-align: top;
     padding: 10px;
-}
+} */
 
 /* To remove underlines from the links 
    and inherit the colours
@@ -112,7 +122,7 @@ form {
 }
 
 form > div {
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .inline label {
@@ -147,6 +157,21 @@ td, th {
 tr:hover {
     background-color: #f5f5f5;
 }
+
+
+
+
+
+
+
+
+
+/* Media queries */
+/* @media not screen {
+    li {
+        color: red;
+    }
+} */
 
 /* unique id 
 #name {
