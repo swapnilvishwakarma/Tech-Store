@@ -5,7 +5,6 @@ html {
 body {
     font-family: 'Barlow', sans-serif;
     background: white;
-    /* max-width: 80vw; */
     max-width: 100%;
     margin: 0 auto;
     color: rgb(49, 46, 46);
@@ -31,7 +30,6 @@ header h1, nav {
 }
 
 header h1 {
-    /* width: 64%; */
     width: 100%;
 }
 
@@ -75,21 +73,7 @@ img {
     display: inline-block;
 }
 
-/* main { */
-    /* target/context = result */
-    /* 680/1000 = 0.68 */
-    /* width: 68%; */
-    /* display: inline-block; */
-    /* padding: 10px; */
-    
-/* } */
 
-/* aside {
-    width: 27%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-} */
 
 /* To remove underlines from the links 
    and inherit the colours
@@ -170,9 +154,44 @@ tr:hover {
     }
 }
 
+@media (min-width: 1000px) {
+    body {
+        text-align: left;
+    }
 
+    header h1 {
+        width: 60%;
+    }
 
+    main {
+        /* target/context = result
+        680/1000 = 0.68 */
+        width: 68%;
+        display: inline-block;
+        padding: 10px;
+    }
 
+    aside {
+        width: 27%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        max-width: 80vw;
+    }
+
+    .product {
+        width: 30%;
+    }
+
+    input[type="search"] {
+        width: 20%;
+    }
+}
 
 
 
