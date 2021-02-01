@@ -158,7 +158,17 @@ tr:hover {
     background-color: #f5f5f5;
 }
 
+@media (min-width: 800px) {
+    input[type="search"] {
+        width: 40%;
+        margin-left: 2em;
+    }
 
+    .product {
+        display: inline-block;
+        width: 48%;
+    }
+}
 
 
 
